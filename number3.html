@@ -9,11 +9,10 @@
                 0 0 4px #0000ff, 0 0 5px #8500ff, 0 0 5px #d800ff, 0 0 5px #ff00ff, 0 0 5px #cc00ff, 0 0 5px #00a1ff, 0 0 5px #0000ff;}
 		    .all {display: grid; grid-template-columns: 4fr 3fr 3fr; grid-auto-rows: minmax(auto); grid-gap: 5px; justify-items: stretch; align-items: stretch; height: 100vh;}
 		    .all > div{padding: 10px; background-color: #333;}
-            .all>div:before {content: ''; display: inline-block; height: 100%; vertical-align: middle;}
+            	    .all>div:before {content: ''; display: inline-block; height: 100%; vertical-align: middle;}
 		    .box-a{grid-column: 1/4;}
 		    .box-r{grid-column: 1;}
 		    .box-c{grid-column: 2/3; grid-row: 3/6; border-radius: 10px;}
-            .box-l{grid-column: 3;}
 	    </style>
     </head>
     <body>
@@ -24,7 +23,6 @@
 		    <div class="box-c"></div>
 		    <div class="box-l"></div>
 		    <div class="box-r"></div>
-            <div class="box-l"></div>
 		    <div class="box-r"></div>
 		    <div class="box-l"></div>
 		    <div class="box-a"></div>
