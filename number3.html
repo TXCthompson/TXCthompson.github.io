@@ -2,29 +2,41 @@
 <html>
     <head>
 	    <meta charset="utf-8">
-	    <title>onlytosics.txc / завдання 3</title>
+	    <title>onlytosics.txc/завдання 3</title>
         <link rel="icon" type="image/png" href="bred.png">
 	    <style type="text/css">
 		    *{padding: 0; margin: 0; background-color: #202020; text-align: center; color: white; text-shadow: 2px 2px 0px #ff00ff, 0 0 2px #00ffff, 0 0 3px #0095ff,
                 0 0 4px #0000ff, 0 0 5px #8500ff, 0 0 5px #d800ff, 0 0 5px #ff00ff, 0 0 5px #cc00ff, 0 0 5px #00a1ff, 0 0 5px #0000ff;}
 		    .all {display: grid; grid-template-columns: 4fr 3fr 3fr; grid-auto-rows: minmax(auto); grid-gap: 5px; justify-items: stretch; align-items: stretch; height: 100vh;}
 		    .all > div{padding: 10px; background-color: #333;}
-            	    .all>div:before {content: ''; display: inline-block; height: 100%; vertical-align: middle;}
+            .box-a:before{content: ''; display: inline-block; height: 100%; vertical-align: middle;}
 		    .box-a{grid-column: 1/4;}
 		    .box-r{grid-column: 1;}
-		    .box-l{grid-column: 3;}
 		    .box-c{grid-column: 2/3; grid-row: 3/6; border-radius: 10px;}
+            .box-l{grid-column: 3;}
+			
+			@media (min-width: 150px) and (max-width: 1024px) {
+				*{padding: 0; margin: 0; background-color: #202020; text-align: center; color: white; text-shadow: 2px 2px 0px #ff00ff, 0 0 2px #00ffff, 0 0 3px #0095ff,
+                0 0 4px #0000ff, 0 0 5px #8500ff, 0 0 5px #d800ff, 0 0 5px #ff00ff, 0 0 5px #cc00ff, 0 0 5px #00a1ff, 0 0 5px #0000ff;}
+		    .all {display: grid; grid-template-columns: 1fr; grid-auto-rows: minmax(auto); grid-gap: 5px; justify-items: stretch; align-items: stretch; height: 100vh;}
+		    .all > div{padding: 10px; background-color: #333;}
+            .all>div:before {content: ''; display: inline-block; height: 100%; vertical-align: middle;}
+		    .box-a{grid-column: 1; font-size: 2vh;}
+		    .box-r{grid-column: 1}
+		    .box-c{grid-column: 1; grid-row: 6/11; border-radius: 10px;}
+            .box-l{grid-column: 1}
+			}
 	    </style>
     </head>
     <body>
 	    <div class="all">
-		    <div class="box-a" style="font-size: 20px;">Шапка</div>
+		    <div class="box-a" style="font-size: 3vh;">Шапка</div>
 		    <div class="box-a">Головне меню</div>
 		    <div class="box-r"></div>
 		    <div class="box-c"></div>
 		    <div class="box-l"></div>
 		    <div class="box-r"></div>
-            	    <div class="box-l"></div>
+            <div class="box-l"></div>
 		    <div class="box-r"></div>
 		    <div class="box-l"></div>
 		    <div class="box-a"></div>
