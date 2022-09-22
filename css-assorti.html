@@ -21,15 +21,26 @@
             .center-r{grid-column: 1; grid-row: 2/6;}
             .center-l{grid-column: 2/4; grid-row: 3/6;}
             .pidval{grid-column: 1/4; grid-row: 6;}
-            .f{width: 400px; height: 200px; background: linear-gradient(180deg, black, red); margin-left: 10%; margin-top: 40%;}
+            .f{width: 0; 
+                height: 0;
+                border-left: 100px solid transparent;
+                border-right: 100px solid transparent;
+                border-bottom: 200px solid #840000; margin-left: 30%; margin-top: 35%;}
             .ahah{font-size: large; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background:linear-gradient(130deg, black, red);-webkit-background-clip:text;-webkit-text-fill-color:transparent; }
             .b-1{background-color: rgb(32, 30, 30); color: white; border-radius: 20px; text-align: center; padding: 10px;
             margin-right: 10px; margin-top: 20%;}
             .b-2{background-color: rgb(32, 30, 30); color: white; border-radius: 20px; text-align: center; padding: 10px;
             margin-left: 10px; margin-top: 20%;}
 
+            #gg{background: rgba(4, 4, 4, 0.582); width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: none;}
+            #okno{width: 300px; height: 50px; font-size: medium; text-align: center; padding: 10px; border: 3px solid rgb(93, 17, 17); border-radius: 10px;
+                color: white; position: fixed; top: 15px; right: 15px; background: #333;}
+            #gg:target {display: block;}
+            .close {color: white; position: fixed;top: 20px; right: 25px; font-size: 20px; line-height: 20px; transition: 0.3s;}
+
             .shapka:before{content: ''; display: inline-block; height: 100%; vertical-align: middle;}
             .center:before{content: ''; display: inline-block; height: 100%; vertical-align: middle;}
+            #okno:before{content: ''; display: inline-block; height: 100%; vertical-align: middle;}
         </style>
     </head>
     <body bgcolor="#202020;">
@@ -38,7 +49,12 @@
                     <a class="ahah">Кафедра інформатики</a>
             </div>
             <div class="center">
-                <a href="https://txcthompson.github.io/" target="_blank" title="wow!">*тисни*</a>
+                <div id="gg">
+                    <div id="okno">Ого!
+                    <a href="#" class="close">x</a>
+                    </div>
+                  </div>
+                  <a href="#gg">*тицяй*</a>
             </div>
             <div class="center-r">
                 <div class="f"></div>
