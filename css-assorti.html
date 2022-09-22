@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8">
+	    <title>onlytosics.txc/завдання 3</title>
+        <link rel="icon" type="image/png" href="bred.png">
+	    <style type="text/css">
+		    *{padding: 0; margin: 0;}
+            a:link {text-decoration: none;} 
+            a:visited {text-decoration: none; color: white}  
+            a:hover { text-decoration: none; color: red}
+            a:active { text-decoration: none; color: black}
+
+            .b-1:hover { text-decoration: none; color: white; background: linear-gradient(180deg, black, red);}
+            .b-2:hover { text-decoration: none; color: white; background: linear-gradient(180deg, black, red);}
+
+            .all {display: grid; grid-template-columns: 1fr 2fr; grid-auto-rows: minmax(auto); grid-gap: 5px; justify-items: stretch; align-items: stretch; height: 100vh;}
+            .all>*{background-color: #333; text-align: center; color: white; }
+            .shapka{grid-column: 1/4; grid-row: 1;}
+            .center{grid-column: 2/4; grid-row: 2; font-size: 50px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+            .center-r{grid-column: 1; grid-row: 2/6;}
+            .center-l{grid-column: 2/4; grid-row: 3/6;}
+            .pidval{grid-column: 1/4; grid-row: 6;}
+            .f{width: 400px; height: 200px; background: linear-gradient(180deg, black, red); margin-left: 10%; margin-top: 40%;}
+            .ahah{font-size: large; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background:linear-gradient(130deg, black, red);-webkit-background-clip:text;-webkit-text-fill-color:transparent; }
+            .b-1{background-color: rgb(32, 30, 30); color: white; border-radius: 20px; text-align: center; padding: 10px;
+            margin-right: 10px; margin-top: 20%;}
+            .b-2{background-color: rgb(32, 30, 30); color: white; border-radius: 20px; text-align: center; padding: 10px;
+            margin-left: 10px; margin-top: 20%;}
+
+            .shapka:before{content: ''; display: inline-block; height: 100%; vertical-align: middle;}
+            .center:before{content: ''; display: inline-block; height: 100%; vertical-align: middle;}
+        </style>
+    </head>
+    <body bgcolor="#202020;">
+        <div class="all">
+            <div class="shapka">
+                    <a class="ahah">Кафедра інформатики</a>
+            </div>
+            <div class="center">
+                <a href="https://txcthompson.github.io/" target="_blank" title="wow!">*тисни*</a>
+            </div>
+            <div class="center-r">
+                <div class="f"></div>
+            </div>
+            <div class="center-l">
+                <a href="https://математика.укр/" target="_blank" title="математика.укр"><button class="b-1">математика.укр</button></a>
+                <a href="https://txcthompson.github.io/" target="_blank" title="мій сайт"><button class="b-2">мій сайт</button></a>
+            </div>
+            <div class="pidval"></div>
+        </div>
+    </body>
+</html>
