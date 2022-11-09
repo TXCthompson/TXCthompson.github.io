@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Головна</title>
+        <link rel="icon" type="image/png" href="logo.png">
+        <link href="/a/light_mode.css" rel="stylesheet" type="text/css" class="style">
+    </head>
+    <body> 
+        <div class="all">
+            <div class="menu">
+                <div class="rm"><a href="index.html">Головна</a></div>
+                <div class="lm"><button class="bttn">Change Theme</button></div>
+            </div>
+            <div class="pm">Найкращі шрифти для особистого використання!<br/>Копіюй і вставляй!</div>
+            <div class="c1 box"><a href="bold.html"></a><div class="gg">Bold
+                <div class="bb">Bold</div></div></div>
+            <div class="c2 box"><a href="italic.html"></a><div class="gg">Italic
+                <div class="ii">Italic</div></div></div>
+            <div class="c3 box"><a href="bold_italic.html"></a><div class="gg">Bold Italic
+                <div class="bi">Bold Italic</div></div></div>
+            <div class="c4 box"><a href="grenze_gotisch.html"></a><div class="gg">Grenze Gotisch
+                <div class="f1">Grenze Gotisch</div></div></div>
+            <div class="c5 box"><a href="noto_sans_mono.html"></a><div class="gg">Noto Sans Mono
+                <div class="f2">Noto Sans Mono</div></div></div>
+            <div class="c6 box"><a href="akaya_telivigala.html"></a><div class="gg">Akaya Telivigala
+                <div class="f3">Akaya Telivigala</div></div></div>
+            <div class="c7 box"><a href="permanent_marker.html"></a><div class="gg">Permanent Marker
+                <div class="f4">Permanent Marker</div></div></div>           
+            <div class="c8 box"><a href="bebas_neue.html"></a><div class="gg">Bebas Neue
+                <div class="f5">Bebas Neue</div></div></div>            
+            <div class="c9 box"><a href="henny_penny.html"></a><div class="gg">Henny Penny
+                <div class="f6">Henny Penny</div></div></div>
+        </div>
+
+        <script src="/a/scripts/scripts.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.box').click(function(){
+                window.location=$(this).find('a').attr('href');
+                return false;
+                })
+            });
+        </script>
+    </body>
+</html>
