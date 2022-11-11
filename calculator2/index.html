@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>onlytoxics.txc / калькулятор</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="all">
+    <div class="a1 q">
+        <span>Площа прямокутника.</span>
+        <input class="ar1 num11" placeholder="Сторона a"/>
+        <input class="ar2 num21" placeholder="Сторона b"/>
+        <button onclick="m1()">Вирахувати</button>
+        <textarea readonly placeholder="Результат" class="result"></textarea>
+    </div>
+    <div class="a2 q">
+        </span>Площа трикутника.</span>
+        <input class="ar1 num12" placeholder="Основа"/>
+        <input class="ar2 num22" placeholder="Висота"/>
+        <button onclick="m2()">Вирахувати</button>
+        <textarea readonly placeholder="Результат" class="result1"></textarea>
+    </div>
+    <div class="a1 q">
+        </span>Площа квадрату.</span>
+        <input class="ar3 num13" placeholder="Сторона"/>
+        <button onclick="m3()">Вирахувати</button>
+        <textarea readonly placeholder="Результат" class="result2"></textarea>
+    </div>
+    <div class="a2 q">
+        <span>Площа кола.</span>
+        <input class="ar3 num14" placeholder="r"/>
+        <button onclick="m4()">Вирахувати</button>
+        <textarea readonly placeholder="Результат" class="result3"></textarea>
+    </div>
+    <div class="a1 q">
+        <span>Площа ромба.</span>
+        <input class="ar1 num15" placeholder="Висота"/>
+        <input class="ar2 num25" placeholder="Сторона"/>
+        <button onclick="m5()">Вирахувати</button>
+        <textarea readonly placeholder="Результат" class="result4"></textarea>
+    </div>
+    <div class="a2 q">
+        </span>Площа паралелограма.</span>
+        <input class="ar1 num16" placeholder="Основа"/>
+        <input class="ar2 num26" placeholder="Висота"/>
+        <button onclick="m6()">Вирахувати</button>
+        <textarea readonly placeholder="Результат" class="result5"></textarea>
+    </div>
+    <div class="a1 q">
+        </span>Площа кільця.</span>
+        <input class="ar1 num17" placeholder="Піввісь a" />
+        <input class="ar2 num27" placeholder="Піввісь b"/>
+        <button onclick="m7()">Вирахувати</button>
+        <textarea readonly placeholder="Результат" class="result6"></textarea>
+    </div>
+    <div class="a2 q">
+        <span>Площа еліпса.</span>
+        <input class="ar1 num18" placeholder="R"/>
+        <input class="ar2 num28" placeholder="r"/>
+        <button onclick="m8()">Вирахувати</button>
+        <textarea readonly placeholder="Результат" class="result7"></textarea>
+    </div>
+
+    <script>
+        function m1() {
+            let result;
+            let num11 = document.querySelector(".num11").value;
+            let num21 = document.querySelector(".num21").value;
+            result = (num11 * num21) * 1 / 2;
+            document.querySelector('.result').innerHTML = result;
+        }
+
+        function m2() {
+            let result1;
+            let num12 = document.querySelector(".num12").value;
+            let num22 = document.querySelector(".num22").value;
+            result1 = num12 * num22;
+            document.querySelector('.result1').innerHTML = result1;
+        }
+
+        function m3() {
+            let result2;
+            let num13 = document.querySelector(".num13").value;
+            result2 = num13 ** 2;
+            document.querySelector('.result2').innerHTML = result2;
+        }
+
+        function m4() {
+            let result3;
+            let num14 = document.querySelector(".num14").value;
+            result3 = 3.14 * (num14**2);
+            document.querySelector('.result3').innerHTML = result3;
+        }
+
+        function m5() {
+            let result4;
+            let num15 = document.querySelector(".num15").value;
+            let num25 = document.querySelector(".num25").value;
+            result4 = num15 * num25;
+            document.querySelector('.result4').innerHTML = result4;
+        }
+
+        function m6() {
+            let result5;
+            let num16 = document.querySelector(".num16").value;
+            let num26 = document.querySelector(".num26").value;
+            result5 = num16 * num26;
+            document.querySelector('.result5').innerHTML = result5;
+        }
+
+        function m7() {
+            let result6;
+            let num17 = document.getElementById("num17").value;
+            let num27 = document.getElementById("num27").value;
+            result6 = 3.14 * ((num17 ** 2) - (num27 ** 2));
+            document.querySelector('.result6').innerHTML = result6;
+        }
+
+        function m8() {
+            let result7;
+            let num18 = document.getElementById("num18").value;
+            let num28 = document.getElementById("num28").value;
+            result7 = num18 * num28 * 3.14;
+            document.querySelector('.result7').innerHTML = result7;
+        }
+    </script>
+    </div>
+</body>
+</html>
