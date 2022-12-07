@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="decription" content="Генератор шрифтів">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-light.css" class="style">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <title>Генератор шрифтів</title>
+</head>
+<body>
+    <div class="all-blocks">
+        <div class="head-block">
+            <div class="h-container">
+                <div class="logo">
+                    <a href="index.html">Генератор шрифтів</a>    
+                </div>
+                <div class="btn-container">
+                    <p class="btnp"><button class="btn">Change theme</button></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="body-block">
+            <div class="text-block">
+                <div class="t-container">
+                    <h1>Генератор шрифтів онлайн</h1>
+                    <p class="description">
+                        Оберіть вид стилю/шрифту для генерації Вашого тексту.
+                    </p>
+                </div>
+            </div>
+
+            <div class="no-inputs-block" id="text-container">
+                <div class="input-block">
+                    <p>Введіть текст...</p>
+                    <textarea placeholder="Type or insert your text" class="i1"></textarea>
+                    <button class="button1">Готово</button>
+                </div>
+                <div class="output-block">
+                    <p>Скопіюйте</p>
+                    <textarea readonly placeholder="Get your formated text" id="rr" class="o1 standart-style"></textarea>
+                    <button class="button2">Копіювати</button>
+                </div>
+            </div>
+
+            <div class="style-blocks-show" id="styles-desktop">
+                <div class="font-option">
+                    <a href="bold.html">
+                        <div class="font-option-param">
+                            <p class="name-style-font">Bold</p>
+                            <p class="bold-style">Bold</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="font-option">
+                    <a href="italic.html">
+                        <div class="font-option-param">
+                            <p class="name-style-font">Italic</p>
+                            <p class="italic-style">Italic</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="font-option">
+                    <a href="bold_italic.html">
+                        <div class="font-option-param">
+                            <p class="name-style-font">Bold Italic</p>
+                            <p class="bold-italic-style">Bold Italic</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="font-option">
+                    <a href="grenze_gotisch.html">
+                        <div class="font-option-param">
+                            <p class="name-style-font">Grenze Gotisch</p>
+                            <p class="grenze-gotisch-style">Grenze Gotisch</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="font-option">
+                    <a href="noto_sans_mono.html">
+                        <div class="font-option-param">
+                            <p class="name-style-font">Noto Sans Mono</p>
+                            <p class="noto-sans-mono-style">Noto Sans Mono</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="font-option">
+                    <a href="akaya_telivigala.html">
+                        <div class="font-option-param">
+                            <p class="name-style-font">Akaya Telivigala</p>
+                            <p class="akaya-telivigala-style">Akaya Telivigala</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="font-option">
+                    <a href="permanent_marker.html">
+                        <div class="font-option-param">
+                            <p class="name-style-font">Permanent Marker</p>
+                            <p class="permanent-marker-style">Permanent Marker</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="font-option">
+                    <a href="bebas_neue.html">
+                        <div class="font-option-param">
+                            <p class="name-style-font">Bebas Neue</p>
+                            <p class="bebas-neue-style">Bebas Neue</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="font-option">
+                    <a href="henny_penny.html">
+                        <div class="font-option-param">
+                            <p class="name-style-font">Henny Penny</p>
+                            <p class="henny-penny-style">Henny Penny</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="style-buttons-show" id="styles-buttons">
+                <div class="font-option-btn">
+                    <button class="font-option-param" id="bold">
+                        <p class="name-style-font">Bold</p>
+                        <p class="bold-style">Bold</p>
+                    </button>
+                </div>
+                
+                <div class="font-option-btn">
+                    <button class="font-option-param" id="italic">
+                        <p class="name-style-font">Italic</p>
+                        <p class="italic-style">Italic</p>
+                     </button>
+                </div>
+
+                <div class="font-option-btn">
+                     <button class="font-option-param" id="bold-italic">
+                        <p class="name-style-font">Bold Italic</p>
+                        <p class="bold-italic-style">Bold Italic</p>
+                    </button>
+                </div>
+
+                <div class="font-option-btn">
+                    <button class="font-option-param" id="grenze-gotisch">
+                        <p class="name-style-font">Grenze Gotisch</p>
+                        <p class="grenze-gotisch-style">Grenze Gotisch</p>
+                    </button>
+                </div>
+
+                <div class="font-option-btn">
+                    <button class="font-option-param" id="noto-sans-mono">
+                        <p class="name-style-font">Noto Sans Mono</p>
+                        <p class="noto-sans-mono-style">Noto Sans Mono</p>
+                    </button>
+                </div>
+
+                <div class="font-option-btn">
+                    <button class="font-option-param" id="akaya-telivigala">
+                        <p class="name-style-font">Akaya Telivigala</p>
+                        <p class="akaya-telivigala-style">Akaya Telivigala</p>
+                    </button>
+                </div>
+
+                <div class="font-option-btn">
+                    <button class="font-option-param" id="permanent-marker">
+                        <p class="name-style-font">Permanent Marker</p>
+                        <p class="permanent-marker-style">Permanent Marker</p>
+                    </button>
+                </div>
+
+                <div class="font-option-btn">
+                    <button class="font-option-param" id="bebas-neue">
+                        <p class="name-style-font">Bebas Neue</p>
+                        <p class="bebas-neue-style">Bebas Neue</p>
+                     </button>
+                </div>
+
+                <div class="font-option-btn">
+                    <button class="font-option-param" id="henny-penny">
+                        <p class="name-style-font">Henny Penny</p>
+                        <p class="henny-penny-style">Henny Penny</p>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/mobile.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="scripts/findReference.js"></script>
+        
+    
+</body>
+</html>

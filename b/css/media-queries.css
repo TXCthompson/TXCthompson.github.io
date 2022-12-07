@@ -1,0 +1,652 @@
+@media only screen and (min-width: 1220px) and (max-width: 1440px) {
+	h1 {
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+
+	p.description {
+		font-size: 18px;
+		margin: 0 0 20px;
+	}
+
+	p.description2 {
+		font-size: 16px;
+		margin: 0 0 20px;
+		width: 1000px;
+		text-align: center;
+	}
+
+	.head-block {
+		widows: 1200px;
+	}
+
+	.h-container {
+		width: 1050px;
+	}
+
+	.logo {
+		width: 270px;
+	}
+
+	.logo > a {
+		font-size: 24px;
+	}
+
+	.btn {
+		font-size: 14px;
+	}
+
+	.btnp {
+		margin-top: 20px;
+	}
+
+	.text-block {
+		margin-top: 20px;
+	}
+
+
+
+	.style-blocks-show {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 1220px;
+		margin: 0 auto;
+	}
+
+	.font-option {
+		margin: 15px;
+	}
+
+	.font-option-param {
+		width: 340px;
+		height: 120px;
+		align-items: center;
+	}
+
+	.font-option p {
+		font-size: 18px;
+		margin: 5px;
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1220px) {
+	h1 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	p.description {
+		font-size: 14px;
+		margin: 0 0 12px;
+	}
+
+	p.description2 {
+		font-size: 12px;
+		margin: 0 0 12px;
+		width: 800px;
+		text-align: center;
+	}
+
+	.head-block {
+		widows: 1000px;
+		height: 70px;
+	}
+
+	.h-container {
+		width: 750px;
+		height: 70px;
+	}
+
+	.logo {
+		width: 220px;
+	}
+
+	.logo > a {
+		font-size: 20px;
+	}
+
+	.btn {
+		font-size: 10px;
+		padding: 8px 18px;
+    	margin: 5px 0 5px 10px;
+    	border: 1.5px solid black;
+	}
+
+	.btnp {
+		margin-top: 8px;
+	}
+
+	.text-block {
+		margin-top: 20px;
+	}
+
+
+
+	.style-blocks-show {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 900px;
+		margin: 0 auto;
+	}
+
+	.font-option {
+		margin: 15px;
+	}
+
+	.font-option-param {
+		width: 240px;
+		height: 80px;
+		align-items: center;
+	}
+
+	.font-option p {
+		font-size: 12px;
+		margin: 5px;
+	}
+}
+
+@media only screen and (min-width: 875px) and (max-width: 1024px) {
+	h1 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	p.description {
+		font-size: 14px;
+		margin: 0 0 12px;
+	}
+
+	p.description2 {
+		font-size: 12px;
+		margin: 0 0 12px;
+		width: 700px;
+		text-align: center;
+	}
+
+	.head-block {
+		widows: 1000px;
+		height: 60px;
+	}
+
+	.h-container {
+		width: 750px;
+		height: 60px;
+	}
+
+	.logo {
+		width: 200px;
+	}
+
+	.logo > a {
+		font-size: 18px;
+	}
+
+	.btn {
+		font-size: 10px;
+		padding: 8px 18px;
+    	margin: 5px 0 5px 10px;
+    	border: 1.5px solid black;
+	}
+
+	.btnp {
+		margin-top: 3px;
+	}
+
+	.text-block {
+		margin-top: 20px;
+	}
+
+
+
+	.inputs-block {
+		display: flex;
+		justify-content: space-between;
+		width: 700px;
+		margin: 0 auto;
+	}
+
+	.input-block {
+		width: 300px;
+	}
+
+	.output-block {
+		width: 300px;
+	}
+
+	.input-block p {
+		font-size: 14px;
+	}
+	.output-block p {
+		font-size: 14px;
+	}
+
+	.output-buttons {
+		width: 310px;
+	}
+
+	textarea {
+	    border-radius: 15px;
+	    padding: 15px;
+	    margin: 0;
+	    height: 150px;
+	    width: 280px;
+	    font-size: 16px;
+	}
+
+	.button1 {
+		font-size: 12px;
+	    padding: 20px 20px;
+	    margin-top: 10px;
+	    margin-bottom: 30px;
+	}
+
+	.button2 {
+		font-size: 12px;
+	    padding: 20px 20px;
+	    margin-top: 10px;
+	    margin-bottom: 30px;
+	}
+
+
+
+	.font-option-btn > button {
+		margin: 20px;
+	}
+
+	button.font-option-param {
+		width: 240px;
+		height: 80px;
+		align-items: center;
+	}
+
+	button > p {
+		font-size: 12px;
+		margin: 5px;
+	}
+
+	.style-buttons-show {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 850px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 874px) {
+	h1 {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+
+	p.description {
+		font-size: 12px;
+		margin: 0 0 12px;
+	}
+
+	.head-block {
+		widows: 1000px;
+		height: 60px;
+	}
+
+	.h-container {
+		width: 650px;
+		height: 60px;
+	}
+
+	.logo {
+		width: 200px;
+	}
+
+	.logo > a {
+		font-size: 16px;
+	}
+
+	.btn {
+		font-size: 8px;
+		padding: 8px 15px;
+    	margin: 5px 0 5 10px;
+    	border: 1.5px solid black;
+	}
+
+	.btnp {
+		margin-top: 2px;
+	}
+
+	.text-block {
+		margin-top: 20px;
+	}
+
+
+
+	.inputs-block {
+		display: flex;
+		justify-content: space-between;
+		width: 620px;
+		margin: 0 auto;
+	}
+
+	.input-block {
+		width: 270px;
+	}
+
+	.output-block {
+		width: 270px;
+	}
+
+	.input-block p {
+		font-size: 12px;
+	}
+	.output-block p {
+		font-size: 12px;
+	}
+
+	.output-buttons {
+		width: 310px;
+	}
+
+	textarea {
+	    border-radius: 15px;
+	    padding: 15px;
+	    margin: 0;
+	    height: 120px;
+	    width: 240px;
+	    font-size: 14px;
+	}
+
+	.button1 {
+		font-size: 10px;
+	    padding: 20px 20px;
+	    margin-top: 10px;
+	    margin-bottom: 20px;
+	}
+
+	.button2 {
+		font-size: 10px;
+	    padding: 20px 20px;
+	    margin-top: 10px;
+	    margin-bottom: 20px;
+	}
+
+
+	.font-option-btn > button {
+		margin: 20px;
+	}
+
+	button.font-option-param {
+		width: 200px;
+		height: 70px;
+		align-items: center;
+	}
+
+	button > p {
+		font-size: 10px;
+		margin: 5px;
+	}
+
+	.style-buttons-show {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 750px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+	h1 {
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+
+	p.description {
+		font-size: 10px;
+		margin: 0 0 10px;
+	}
+
+	p.description2 {
+		font-size: 8px;
+		margin: 0 0 10px;
+		width: 600px;
+		text-align: center;
+	}
+
+	.head-block {
+		widows: 700px;
+		height: 55px;
+	}
+
+	.h-container {
+		width: 380px;
+		height: 55px;
+	}
+
+	.logo {
+		width: 150px;
+	}
+
+	.logo > a {
+		font-size: 12px;
+	}
+
+	.btn {
+		font-size: 8px;
+		padding: 6px 12px;
+    	margin: 0 0 0 8px;
+    	border: 1px solid black;
+	}
+
+	.btnp {
+		margin: 0;
+	}
+
+	.text-block {
+		margin-top: 20px;
+	}
+
+
+
+	.inputs-block {
+		display: flex;
+		justify-content: space-between;
+		width: 470px;
+		margin: 0 auto;
+	}
+
+	.input-block {
+		width: 210px;
+	}
+
+	.output-block {
+		width: 210px;
+	}
+
+	.input-block p {
+		font-size: 10px;
+	}
+	.output-block p {
+		font-size: 10px;
+	}
+
+	.output-buttons {
+		width: 230px;
+	}
+
+	textarea {
+	    border-radius: 15px;
+	    padding: 15px;
+	    margin: 0;
+	    height: 80px;
+	    width: 180px;
+	    font-size: 12px;
+	}
+
+	.button1 {
+		font-size: 8px;
+	    padding: 15px 20px;
+	    margin-top: 10px;
+	    margin-bottom: 15x;
+	}
+
+	.button2 {
+		font-size: 8px;
+	    padding: 15px 20px;
+	    margin-top: 10px;
+	    margin-bottom: 15px;
+	}
+
+
+
+	.font-option-btn > button {
+		margin: 15px;
+	}
+
+	button.font-option-param {
+		width: 180px;
+		height: 50px;
+		align-items: center;
+	}
+
+	button > p {
+		font-size: 8px;
+		margin: 3px;
+	}
+
+	.style-buttons-show {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 450px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 519px) {
+	h1 {
+		font-size: 10px;
+		margin-bottom: 10px;
+	}
+
+	p.description {
+		font-size: 6px;
+		margin: 0 0 10px;
+	}
+
+	p.description2 {
+		font-size: 5px;
+		margin: 0 0 10px;
+		width: 500px;
+		text-align: center;
+	}
+
+	.head-block {
+		widows: 300px;
+		height: 30px;
+	}
+
+	.h-container {
+		width: 250px;
+		height: 30px;
+	}
+
+	.logo {
+		width: 150px;
+	}
+
+	.logo > a {
+		font-size: 8px;
+	}
+
+	.btn {
+		font-size: 5px;
+		padding: 4px 7px;
+    	margin: 0 0px 0 8px;
+    	border: 1px solid black;
+	}
+
+	.btnp {
+		margin-top: -14px;
+	}
+
+	.text-block {
+		margin-top: 20px;
+	}
+
+
+
+	.inputs-block {
+		display: flex;
+		justify-content: space-between;
+		width: 300px;
+		margin: 0 auto;
+	}
+
+	.input-block {
+		width: 130px;
+	}
+
+	.output-block {
+		width: 130px;
+	}
+
+	.input-block p {
+		font-size: 6px;
+	}
+	.output-block p {
+		font-size: 6px;
+	}
+
+	.output-buttons {
+		width: 230px;
+	}
+
+	textarea {
+	    border-radius: 15px;
+	    padding: 15px;
+	    margin: 0;
+	    height: 60px;
+	    width: 100px;
+	    font-size: 8px;
+	}
+
+	.button1 {
+		font-size: 6px;
+	    padding: 10px 10px;
+	    margin-top: 10px;
+	    margin-bottom: 15px;
+	}
+
+	.button2 {
+		font-size: 6px;
+	    padding: 10px 10px;
+	    margin-top: 10px;
+	    margin-bottom: 15px;
+	}
+
+
+
+	.font-option-btn > button {
+		margin: 15px;
+	}
+
+	button.font-option-param {
+		width: 180px;
+		height: 50px;
+		align-items: center;
+	}
+
+	button > p {
+		font-size: 8px;
+		margin: 3px;
+	}
+
+	.style-buttons-show {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 300px;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, p, a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+p.description {
+	font-size: 24px;
+	margin: 0 0 10px;
+}
+
+p.description2 {
+	font-size: 20px;
+	margin: 0 0 10px;
+	width: 1200px;
+	text-align: center;
+}
+
+.head-block {
+	widows: 1920px;
+	height: 100px;
+	line-height: 50px;
+	align-items: center;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 20%);
+}
+
+.h-container {
+	display: flex;
+	justify-content: space-between;
+	width: 1250px;
+	height: 100px;
+	margin: 0px auto;
+	vertical-align: middle;
+}
+
+.logo {
+	width: 340px;
+	position: relative;
+}
+
+.logo > a {
+	top: 50%;
+	transform: translate(0, -50%);
+	position: absolute;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+
+
+.text-block {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.t-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px auto;
+}
+
+.style-blocks-hidden {
+	display: none;
+}
+
+.style-blocks-show {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 1450px;
+	margin: 0 auto;
+}
+
+.style-buttons-hidden {
+	display: none;
+}
+
+.style-buttons-show {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 1450px;
+	margin: 0 auto;
+}
+
+.font-option {
+	margin: 30px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	border-color: rgb(168, 168, 168);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    background-color: rgb(255, 255, 255);
+}
+
+.font-option:hover{
+    border-color: rgb(119, 119, 119);
+    box-shadow: 0 0 10px rgb(212, 212, 212);
+}
+
+.font-option-btn > button {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 20px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	border-color: rgb(168, 168, 168);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    background-color: rgb(255, 255, 255);
+	align-items: center;
+}
+
+.font-option-btn > button:hover{
+    border-color: rgb(119, 119, 119);
+    box-shadow: 0 0 10px rgb(212, 212, 212);
+}
+
+button.font-option-param {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 400px;
+	height: 130px;
+	align-items: center;
+}
+
+button > p > .name-style-font:hover {
+	color: #FF8C00;
+}
+
+.font-option-param {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 400px;
+	height: 130px;
+	align-items: center;
+}
+
+.font-option p {
+	font-size: 20px;
+	margin: 5px;
+}
+
+
+
+.standart-style {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-style: normal;
+}
+
+.bold-style {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-style: normal;
+}
+
+.italic-style {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-style: italic;
+}
+
+.bold-italic-style {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-style: italic;
+}
+
+.grenze-gotisch-style {
+	font-family: 'Grenze Gotisch';
+}
+
+.noto-sans-mono-style {
+	font-family: 'Noto Sans Mono';
+}
+
+.akaya-telivigala-style {
+	font-family: 'Akaya Telivigala';
+}
+
+.permanent-marker-style {
+	font-family: 'Permanent Marker';
+}
+
+.bebas-neue-style {
+	font-family: 'Bebas Neue';
+}
+
+.henny-penny-style {
+	font-family: 'Henny Penny';
+}
+
+
+
+.font-option:hover .font-option-param > .name-style-font {
+	color: #000;
+}
+
+.font-option:hover .font-option-param > .name-style-font {
+	color: #FF8C00;
+}
+
+.font-option .font-option-param > .name-style-font {
+	color: rgb(104, 104, 104);
+}
+
+.font-option .font-option-param > .name-style-font > .bold-style {
+	font-weight: bold;
+	color: black;
+}
+
+.font-option. .font-option-param > .name-style-font > .italic-style {
+	font-style: italic;
+	color: black;
+}
+
+.font-option > .font-option-param > .name-style-font > .bold-italic-style {
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+}
+
+.font-option > .font-option-param > .grenze-gotisch-style {
+	font-family: 'Grenze Gotisch', cursive;
+	color: black;
+}
+
+.font-option > .font-option-param > .noto-sans-mono-style {
+	font-family: 'Noto Sans Mono', monospace;
+	color: black;
+}
+
+.font-option > .font-option-param > .akaya_telivigala-style {
+	font-family: 'Akaya Telivigala', cursive;
+	color: black;
+}
+
+.font-option > .font-option-param > .permanent-marker-style {
+	font-family: 'Permanent Marker', cursive;
+	color: black;
+}
+
+.font-option > .font-option-param > .bebas-neue-style {
+	font-family: 'Bebas Neue', cursive;
+	color: black;
+}
+
+.font-option > .font-option-param > .henny-penny-style {
+	font-family: 'Henny Penny', cursive;
+	color: black;
+}
+
+
+
+.no-inputs-block {
+	display: none;
+}
+
+.inputs-block {
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.input-block {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+}
+
+.input-block p {
+	text-align: center;
+}
+
+.output-block {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+}
+
+.output-block p {
+	text-align: center;
+}
+
+.output-buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+}
+
+.output-buttons button {
+	width: 230px;
+}
+
+.o1 {
+	font-family: 'Montserrat';
+}
+
+textarea {
+    resize: none;
+    outline: none;
+	  -moz-appearance: none;
+    overflow: auto;
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    background-color:rgb(238, 238, 238);
+    color: black;
+    margin: 0;
+    height: 30vh;
+    font-size: 24px;
+}
+
+.button1 {
+	text-decoration: none;
+    display: inline-block;
+    padding: 20px 30px;
+    position: relative;
+    color: black;
+    border: none;
+    background: none;
+    margin-top: 10px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+.button1:hover {
+	color: #00FF00
+}
+
+.button2 {
+	text-decoration: none;
+    display: inline-block;
+    padding: 20px 30px;
+    position: relative;
+    color: black;
+    border: none;
+    background: none;
+    margin-top: 10px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.button2:hover {
+	color: #00FF00
+}
+
+.button3 {
+	text-decoration: none;
+    display: inline-block;
+    padding: 20px 30px;
+    position: relative;
+    color: black;
+    border: none;
+    background: none;
+    margin-top: 10px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.button3:hover {
+	color: #00FF00
+}
+
+
+
+
+
+.btn {
+	font-family: Montserrat, sans-serif;
+	font-size: 16px;
+    background: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 0 10px 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: black;
+    transition: .2s ease-in-out;
+}
+
+.btn:before {
+    content: "";
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -8px;
+    left: -75px;
+    transform: skewX(-45deg);
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+ 
+.btn:hover:before {
+    left: 200px;
+    transition: .5s ease-in-out;
+}
+
+
+
+.i1 {font-size: 2vw;}
+.s0 {font-family: 'Source Code Pro', monospace; font-size: 1vw;}
+.s1 {font-family: 'Montserrat', Times, serif; font-weight: bold; font-size: 2vw;}
+.s2 {font-family: 'Montserrat', Times, serif; font-style: italic; font-size: 2vw;}
+.s3 {font-family: 'Montserrat', Times, serif; font-style: italic; font-weight: bold; font-size: 2vw;}
+.s4 {font-family: 'Grenze Gotisch', cursive; font-size: 2vw;}
+.s5 {font-family: 'Noto Sans Mono', monospace; font-size: 2vw;}
+.s6 {font-family: 'Akaya Telivigala', cursive; font-size: 2vw;}
+.s7 {font-family: 'Permanent Marker', cursive; font-size: 2vw;}
+.s8 {font-family: 'Bebas Neue', cursive; font-size: 2vw;}
+.s9 {font-family: 'Henny Penny', cursive; font-size: 2vw;}
