@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>laboratorna3</title>
+    <style>
+        .sho{
+            font-style: italic;
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript"src="https://cdn.mathjax.org/mathjax/1.1-latest/MathJax.js?config=default"></script>
+</head>
+<body>
+    <div class="sho"><h2>Дифференційне рівняння. Приклад 1:</h2></div>
+    <div>$$(y^4-2x^3y)dx+(x^4-2xy^3)dy=0$$</div>
+    <div>$$(t^4x^4-2x^3xt)dx+(x^4-2xx^3t^3)(xdt+tdx)=0$$</div>
+    <div>$$(t^4-2t)dx+(1-2t^3)(xdt+tdx)=0$$</div>
+    <div>$$(t^4+t)dx-(1-2t^3)xdt=0$$</div>
+    <div>$$\frac{dx}{x}=\frac{1-2t^3}{t+t^4}dt$$</div>
+    <div>$$\int\frac{dx}{x}=\int\left(\frac{1}{t}-\frac{3t^2}{1+t^3}\right)dt$$</div>
+    <div>$$ln|x|=ln|t|-ln|1+t^3|+ln|\overline C|,\quad x(1+t^3)=\overline Ct(\overline C\neq0)$$</div>
+    <div>$$x\left(1+\frac{y^3}{x^3}\right)=\overline C\frac{y}{x},\quad x^3+y^3=\overline Cxy$$</div>
+    <div class="sho"><h2>Дифференційне рівняння. Приклад 2:</h2></div>
+    <div>$$(1+x^2)dy-2xydx=0$$</div>
+    <div>$$(1+x^2)dy=2xydx$$</div>
+    <div>$$\frac{dy}{y}=\frac{2xdx}{1+x^2}$$</div>
+    <div>$$\int\frac{dy}{y}=\int\frac{2xdx}{1+x^2}+C$$</div>
+    <div>$$ln|y|=ln|1+x^2|+ln|\overline C|$$</div>
+    <div>$$y=\overline C(1+x^2)$$</div>
+    <div>$$1=\overline C(1+0)$$</div>
+    <div>$$\overline C=1$$</div>
+</body>
+</html>
