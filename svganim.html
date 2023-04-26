@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>laba 4</title>
+	<style>
+		.trg {
+			fill: none;
+			stroke: blue;
+			stroke-width: 5;
+			stroke-dasharray: 500;
+			stroke-dashoffset: 500;
+			animation: draw-trg 4s ease-in-out forwards;
+		}
+        .krg {
+			fill: none;
+			stroke: red;
+			stroke-width: 5;
+			stroke-dasharray: 650;
+			stroke-dashoffset: 650;
+			animation: draw-krg 5s ease-in-out forwards;
+		}
+		.str {
+			fill: none;
+			stroke: yellow;
+			stroke-width: 5;
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 1000;
+			animation: draw-str 5s ease-in-out forwards;
+		}
+		@keyframes draw-trg {
+			from {
+				stroke-dashoffset: 500;
+			}
+			to {
+				stroke-dashoffset: 0;
+			}
+		}
+		@keyframes draw-krg {
+			from {
+				stroke-dashoffset: 650;
+			}
+			to {
+				stroke-dashoffset: 0;
+			}
+		}
+		@keyframes draw-str {
+			from {
+				stroke-dashoffset: 1000;
+			}
+			to {
+				stroke-dashoffset: 0;
+			}
+		}
+	</style>
+</head>
+<body style="text-align: center;">
+	<svg width="300" height="300">
+		<path class="trg" d="M100,100 L200,200 L300,100 L100,100" />
+	</svg>
+    <svg width="300" height="300">
+		<circle class="krg" cx="150" cy="150" r="100" />
+	</svg>
+    <svg width="300" height="300">
+		<path class="str" d="M150 10 L180 100 L280 100 L200 160 L230 250 L150 200 L70 250 L100 160 L20 100 L120 100 Z" />
+	</svg>
+</body>
+</html>
