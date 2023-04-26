@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XML Parser Example</title>
+	<style>
+		.book {
+			border: 1px solid black;
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+
+		.book-title {
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+
+		.book-author {
+			font-size: 18px;
+			margin-bottom: 5px;
+		}
+
+		.book-published {
+			font-size: 14px;
+			color: gray;
+		}
+	</style>
+</head>
+<body>
+	<h1>XML Parser</h1>
+	<div id="xml-content"></div>
+	<script>
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				var xmlDoc = this.responseXML;
+				var xmlContent = "";
+				var root = xmlDoc.documentElement;
+				for (var i = 0; i < root.childNodes.length; i++) {
+					var node = root.childNodes[i];
+					if (node.nodeType == 1) {
+						var name = node.nodeName;
+						var value = node.textContent;
+						var xmlElement = document.createElement("div");
+						xmlElement.classList.add("book");
+						var titleElement = document.createElement("div");
+						titleElement.classList.add("book-title");
+						titleElement.textContent = value;
+						var authorElement = document.createElement("div");
+						authorElement.classList.add("book-author");
+						authorElement.textContent = "by " + value;
+						var publishedElement = document.createElement("div");
+						publishedElement.classList.add("book-published");
+						publishedElement.textContent = "Published in " + value;
+						xmlElement.appendChild(titleElement);
+						xmlElement.appendChild(authorElement);
+						xmlElement.appendChild(publishedElement);
+						xmlContent += xmlElement.outerHTML;
+					}
+				}
+				document.getElementById("xml-content").innerHTML = xmlContent;
+			}
+		};
+		xhttp.open("GET", "epub.xml", true);
+		xhttp.send();
+	</script>
+</body>
+</html>
